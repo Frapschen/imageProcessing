@@ -1,0 +1,7 @@
+D:\C# exercise\web\bll\obj\Debug\bll.csproj.CoreCompileInputs.cache
+D:\C# exercise\web\bll\bin\Debug\bll.exe.config
+D:\C# exercise\web\bll\bin\Debug\bll.exe
+D:\C# exercise\web\bll\bin\Debug\bll.pdb
+D:\C# exercise\web\bll\obj\Debug\bll.exe
+D:\C# exercise\web\bll\obj\Debug\bll.pdb
+D:\C# exercise\web\bll\obj\Debug\bll.csprojAssemblyReference.cache
