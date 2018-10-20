@@ -48,13 +48,23 @@ namespace web
             //加载图片
             Bitmap b = bll.loadImage.file2img(filePath + fileName);
             Bitmap target = null;
-
+            String newfileName=null;
             //使用算法   
-            
+            switch (RadioButtonList1.SelectedIndex)
+            {
+                case 0://算法一
+                    newfileName += "腐蚀";
+                    target = bll.xingTaiXue.GetFuShiImage(b);
+                    break;
+                case 1://算法二
+                    newfileName += "膨胀";
+                    target = bll.xingTaiXue.GetPengZhangImage(b);
+                    break;               
+            }
             //target 
 
             //图片重命名：加上处理算法的名字
-            fileName = bll.loadImage.imgNameadd(fileName, "形态学处理");
+            fileName = bll.loadImage.imgNameadd(fileName, "形态学处理"+ newfileName);
 
             //存放图片target
             bll.loadImage.img2file(target, filePath + fileName);

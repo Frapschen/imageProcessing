@@ -58,6 +58,7 @@
     <Compile Include="loadImage.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="thresholding.cs" />
+    <Compile Include="xingTaiXue.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="PresentationCore" />

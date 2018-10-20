@@ -51,7 +51,7 @@
             </tr>
         </table>   
           <p><asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/step4.aspx">上一步：边缘检测</asp:LinkButton>
-       <asp:LinkButton ID="LinkButton2" runat="server" PostBackUrl="~/">下一步：</asp:LinkButton>
+       <asp:LinkButton ID="LinkButton2" runat="server" PostBackUrl="~/step6.aspx">下一步：形态学</asp:LinkButton>
         只支持JPG格式的图片
               </p>
     </form>

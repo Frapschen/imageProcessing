@@ -14,10 +14,10 @@ namespace bll
     {
         public static Bitmap file2img(string filepath)//Tuple<Bitmap, bool>
         {
-            filepath += 1;
+           
             Bitmap b = null;
-            bool a = true;
-            Tuple<Bitmap, bool> tuple = null;           
+            //bool a = true;
+           // Tuple<Bitmap, bool> tuple = null;           
             try
             {
                b = new Bitmap(filepath); 

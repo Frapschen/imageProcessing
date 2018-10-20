@@ -272,9 +272,7 @@ namespace bll
                         }
                     }
 
-                    g.Dispose();
-                    
-                    
+                    g.Dispose();                                     
                 }
                 
             }

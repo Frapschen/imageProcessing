@@ -38,8 +38,11 @@
                 </td>
                 <td class="auto-style2">
 
-                &nbsp;<br />
-&nbsp;<asp:Button ID="Button1" runat="server" Text="形态学处理" OnClick="Button1_Click" />
+                &nbsp;<asp:RadioButtonList ID="RadioButtonList1" runat="server">
+                        <asp:ListItem>腐蚀</asp:ListItem>
+                        <asp:ListItem>膨胀</asp:ListItem>
+                    </asp:RadioButtonList>
+                    <asp:Button ID="Button1" runat="server" Text="形态学处理" OnClick="Button1_Click" />
 
                     <br />
                     <br />
